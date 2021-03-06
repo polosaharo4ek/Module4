@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Playfair Display",'Arial', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 150px;
+    padding-left: 150px;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* header */
+header{
+    padding-top: 70px;
+    text-align: center;
+}
+nav{
+    padding-bottom: 105px;
+}
+.site-navigation{
+    padding: 0;
+    list-style: none;
+    display:inline-block;
+    width: 900px;
+    vertical-align: middle;
+
+}
+.nav-item{
+    display:inline-block;
+    /* font-size: 14px; inherited from body */
+    text-transform: uppercase;
+    list-style: none;
+    /* margin: 0 auto; inherited from container*/
+    
+}
+
+.first{
+    margin-right: 120px;
+}
+.second{
+    margin-right: 102px;
+}
+.third{
+    margin-right: 95px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-link{
+    display: block;
+    width: ;
+    text-align: center;
+    color: #626262;
+    text-decoration: none;
+    
+}
+
+.nav-link:hover,
+.nav-link:focus {
+     color: #03a9f4;
+}
+
+
+/* mainpart */
+.story-list{
+    width: 900px;
+    list-style:none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0px;
+    
+}
+.story-list li{
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 14px;
+
+}
+
+.story-list li:nth-child(2n){
+    margin-right:0;
+}
+.last-part{
+    width: 900px;
+    list-style:none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0px;
+
+}
+.last-part li{
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 14px;
+}
+
+.last-part li:nth-child(2n){
+    margin-right:0;
+}
+
+img{
+    margin-bottom: 28px;
+}
+
+figcaption{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+
+}
+
+h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+.story-list p{
+    margin-bottom: 130px;
+}
+
+.last-part p{
+    margin-bottom: 60px;
+}
+
+
+
+
+button{
+    display:block;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    font-size: 20px;
+    color: #626262;
+    background-color: white;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto 70px;
+}
+
+footer{
+    display: inline-block;
+
+}
+
+
