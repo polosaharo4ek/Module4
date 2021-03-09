@@ -155,13 +155,11 @@ img{
     margin: 0;
 }
 
-.about-item:hover,
-.about-item:focus{
+.product-item:hover .about-item{
 background-color: #1abc9c;
 }
 
-.price:hover,
-.price:focus{
+.product-item:hover  .price{
 background-color: #7fd9c7;
 }
 
@@ -242,4 +240,5 @@ background-color: #7fd9c7;
     border: none;
     border-radius: 5px;
     margin: 14px 0 45px 0;
+    cursor: pointer;
 }
